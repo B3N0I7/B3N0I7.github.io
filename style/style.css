@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  background-color: beige;
+}
+
+.oiseau {
+  transition: transform 1.5s ease;
+}
+
+.oiseau:hover {
+  transform: rotate(360deg);
+}
